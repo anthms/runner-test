@@ -3,7 +3,7 @@ on:
 
 jobs:
   test-macos:
-    runs-on: macos-13-xlarge
+    runs-on: macos-15-xlarge
     steps:
       - run: echo 'done'
       
