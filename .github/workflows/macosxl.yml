@@ -1,0 +1,10 @@
+on:
+  workflow_dispatch:
+
+jobs:
+  test-macos:
+    runs-on: macos-latest-xlarge
+    steps:
+      - run: echo 'done'
+      
+      
